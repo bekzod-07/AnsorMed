@@ -6,3 +6,35 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.cta {
+    margin-top: 132px;
+    background-color: #0EB4C1;
+    height: 250px;
+}
+
+.cta__section__text h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 64px;
+}
+
+.cta__section__button button {
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    background-color: #0EB4C1;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.cta__section__button1 {
+    margin-left: 270px;
+}
+
+.cta__section__button2 {
+    margin-left: 64px;
+}
