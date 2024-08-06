@@ -6,3 +6,89 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.header__text {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__text__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__text__logo h2 {
+    font-size: 24px;
+    margin-left: 15px;
+    transition: .6s all;
+}
+
+.header__text__logo img {
+    transition: .6s all;
+}
+
+.header__text__logo img:hover {
+    opacity: 0.8;
+    transition: .6s all;
+}
+
+.header__text__logo img:active {
+    opacity: 0.5;
+}
+
+.header__text__logo h2:hover {
+    opacity: 0.8;
+    color: #DE2E54;
+    transition: .6s all;
+}
+
+.header__text__logo h2:active {
+    opacity: 0.5;
+}
+
+.header__text__list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 33px;
+}
+
+.header__text__list ul li {
+    cursor: pointer;
+    transition: .6s all;
+}
+
+.header__text__list ul li:hover {
+    color: #DE2E54;
+    transition: .6s all;
+}
+
+.header__text__list ul li:active {
+    opacity: 0.5;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: #DE2E54;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    padding:12px 24px 12px 24px;
+    font-size: 16px;
+    transition: .6s all;
+}
+
+.button:hover {
+    color: #DE2E54;
+    border: 1px solid #DE2E54;
+    background-color: white;
+    transition: .6s all;
+}
+
+.button:active {
+    opacity: 0.5;
+}

@@ -6,3 +6,40 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.services__column {
+    margin-top: 56px;
+}
+
+.services__column__section {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__column__section__text {
+    margin-left: 64px;
+}
+
+.services__column__section__text h3 {
+    margin-top: -20px;
+}
+
+.services__column__section__text p {
+    padding-top: 24px;
+    width: 560px;
+    line-height: 24px;
+    color: #444444;
+}
+
+.services__text {
+    padding-top: 120px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.services__button {
+    margin-top: 80px;
+    margin-left: 500px;
+}
